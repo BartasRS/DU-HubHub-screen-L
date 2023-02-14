@@ -14,7 +14,11 @@ You can color code special key words by changing line (or adding more):</br>
 if ttxt == "PRODUCTS" then setNextFillColor(layer, 0 ,1, 0.2, 1)
 ```
 </br></br>
-Text is case sensitive! To change color edit <i>setNextFillColor(layer, r ,g, b, a)</i> where:</br></br>
+Text is case sensitive! To change color edit 
+```lua
+setNextFillColor(layer, r ,g, b, a)
+```
+where:</br></br>
 r - RED, g - GREEN, b - BLUE, a - alpha (transparency)</br></br>
 Dual Universe uses 0-1 range (for example: 1 or 0.5). This is kinda percent value where 1 is 100% of 255. For more traditional RGB values you can use <i>x/255</i> syntax where 255/255 will be equivalent of 1 and 0/255 will be equivalent of 0. 
 
