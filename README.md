@@ -3,9 +3,13 @@
 </br>
 Hub Screen L for 12 Container Hubs
 </br>
-Label texts can be changed in lines 20-26. For example: <i>info[0][0]="my text"</i>
+Label texts can be changed in lines 20-26. For example: 
+```lua
+<i>info[0][0]="my text"</i>
+```
 </br>
 You can color code special key words by changing line (or adding more):</br>
+
 <i>if ttxt == "PRODUCTS" then setNextFillColor(layer, 0 ,1, 0.2, 1)</i></br></br>
 Text is case sensitive! To change color edit <i>setNextFillColor(layer, r ,g, b, a)</i> where:</br></br>
 r - RED, g - GREEN, b - BLUE, a - alpha (transparency)</br></br>
