@@ -9,6 +9,7 @@ info[0][0]="my text"
 ```
 </br>
 You can color code special key words by changing line (or adding more):</br>
+
 ```lua
 if ttxt == "PRODUCTS" then setNextFillColor(layer, 0 ,1, 0.2, 1)
 ```
